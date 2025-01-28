@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <>
       <nav>
-        <div className='logo'>Event</div>
+        <div className='logo'>EventNest</div>
         <div className={show ? "navLinks showMenu" : "navLinks"}>
           <div className="links">
             <Link to='landing' spy={true} smooth={true} duration={500} >HOME</Link>
