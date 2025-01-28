@@ -20,7 +20,7 @@ const Contact = () => {
 
     await axios
       .post(
-        "http://localhost:8000/api/v1/message/send",
+        "https://eventnest-zvmu.onrender.com/api/v1/message/send",
         {
           username,
           email,
