@@ -113,7 +113,7 @@ nav svg {
     z-index: -1;
     transition: 0.3s;
   }
-  nav .showmenu {
+  nav .showMenu {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -129,7 +129,7 @@ nav svg {
     border-top-left-radius: 7px;
     z-index: 2;
   }
-  nav .showmenu .links {
+  nav .showMenu .links {
     flex-direction: column;
     text-align: center;
   }
@@ -138,12 +138,12 @@ nav svg {
   }
 }
 @media (max-width: 800px) {
-  nav .showmenu {
+  nav .showMenu {
     width: 96vw;
   }
 }
 @media (max-width: 650px) {
-  nav .showmenu {
+  nav .showMenu {
     margin: 0;
     width: 100%;
     border-radius: 0;
